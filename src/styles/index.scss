@@ -5,6 +5,10 @@
 @import './blocks/container';
 @import './blocks/nav';
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   margin: 0;
   padding: 0;
