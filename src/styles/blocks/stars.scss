@@ -1,8 +1,7 @@
 .stars {
-  display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  
+  @include flex-between;
 
   &__item {
     height: 16px;
